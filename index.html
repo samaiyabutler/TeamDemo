@@ -10,6 +10,10 @@
     
     <link rel="stylesheet" type="text/css" href="style.css">
     
+      <script src="jquery-2.0.3.js"></script>
+
+      <script src="bootstrap.js"></script>
+
   </head>
   
   <body>
@@ -55,6 +59,63 @@
        <li class="span6">
        
         <div class="thumbnails">
+        
+        <div id="myCarousel" class="carousel slide">
+
+	 <div class="carousel-inner">
+
+           <div class="item active">
+
+	      <img src="https://f.cloud.github.com/assets/5123852/1004860/f8664c7e-0aaa-11e3-91ce-1b1045ddc227.jpg">
+
+	      	<div class="carousel-caption">
+
+		   <p>Im Issy <3 :) </p>
+
+	        </div>
+
+          </div>
+    
+	   <div class="item">
+
+	      <img src="https://f.cloud.github.com/assets/5123852/1004850/d137f472-0aaa-11e3-8d87-31b6668c5525.jpg">
+          </div>
+
+    	  <div class="item">
+
+               <img src="https://f.cloud.github.com/assets/5123852/1004819/447e608e-0aaa-11e3-9395-a74f60add14d.JPG">
+
+	   </div>
+
+	  <div class="item">
+
+	       <img src="https://f.cloud.github.com/assets/5123852/1009792/d4fccec2-0b3e-11e3-9ef8-c31683e2799a.jpg">
+
+	       	<div class="carousel-caption">
+
+		   <p>Issachar was a good team leader.</p>
+
+  	  </div>
+
+     </div>
+
+	  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+
+	  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+
+    </div>
+
+    <script>
+	    $(document).ready(function(){
+		    $('.carousel').carousel({
+		    	interval: 3000
+		    });
+	    });
+
+    </script>
+
+  </div>
+
         
         <ul>
         
