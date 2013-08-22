@@ -270,3 +270,7 @@ input[type="color"],
 .badge-info {
    background-color: #BC7B80;
 }
+
+.thumbnail {
+  padding: 1px;
+}
